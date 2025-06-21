@@ -263,7 +263,7 @@ get_install_path() {
             echo "/usr/local/opt/openlist"
             ;;
         "termux")
-            echo "$HOME/openlist"
+            echo "/sdcard/openlist"
             ;;
         *)
             echo "/opt/openlist"
